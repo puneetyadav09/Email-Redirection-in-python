@@ -13,7 +13,7 @@ The **Email Redirection System** is a Python-based application that allows users
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Email-Redirection-in-python.git
+   git clone https://github.com/puneetyadav09/Email-Redirection-in-python.git
    ```
 2. Run the application:
    ```bash
