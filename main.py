@@ -17,7 +17,7 @@ SMTP_PORT = os.getenv("SMTP_PORT")
 
 SENDER_EMAIL = os.getenv("EMAIL_ACCOUNT")
 SENDER_PASSWORD = os.getenv("EMAIL_PASSWORD")
-FORWARD_TO_EMAIL = "puneet932004@gmail.com"
+FORWARD_TO_EMAIL = os.getenv("DEFAULT_DEPARTMENT_EMAIL")
 
 EMAILS = {
     "Academic": "academic@domain.com",
