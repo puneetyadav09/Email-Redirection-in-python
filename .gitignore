@@ -1,0 +1,89 @@
+# =====================
+# Python
+# =====================
+venv/
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+*.db
+*.env
+.env.*
+instance/
+.cache/
+*.pkl
+*.mypy_cache/
+*.pyc
+
+# =====================
+# VSCode & IDEs
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# =====================
+# Node (React Frontend)
+# =====================
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/.env.*
+frontend/build/
+frontend/dist/
+
+# =====================
+# Logs & System
+# =====================
+.DS_Store
+Thumbs.db
+*.log
+
+# =====================
+# Ollama (optional - large models or user config)
+# =====================
+ollama/
+.ollama/
+
+# =====================
+# PyInstaller
+# =====================
+*.spec
+dist/
+build/
+
+# =====================
+# Local database & secrets
+# =====================
+*.sqlite
+*.db
+secrets.json
+tokens.json
+
+# =====================
+# Coverage reports
+# =====================
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# =====================
+# FastAPI / Uvicorn
+# =====================
+*.pid
+
+# =====================
+# Environment settings
+# =====================
+.env
+.env.*
+*.pem
+*.crt
+*.key
